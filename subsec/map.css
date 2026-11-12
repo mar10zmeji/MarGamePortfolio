@@ -10,7 +10,7 @@ body {
 }
 
 #backBtn {
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 20px;
     font-size: larger;
     width: 200px;
@@ -24,7 +24,7 @@ body {
     height: 150px;
     border-radius: 3%;
     border-style: groove;
-    border-color: rgb(48, 38, 100);
+    border-color: rgb(41, 38, 100);
     border-width: 5%;
     background-color: rgb(190, 194, 204);
     overflow-y: hidden;
@@ -39,7 +39,10 @@ body {
 
 .scroll {display: flex; flex-wrap: nowrap; overflow-x: scroll; border: 10px solid "darkblue";}
 .scroll button {background-color: rgba(0, 0,0, 0);}
+.scroll button :hover {border-color: rgb(0, 81, 255);}
 #gal {display: flex; flex-wrap: wrap; gap: 10px; margin-left: 5vw; margin-right: 5vw;align-content:space-between;}
 #gal img {border-radius: 5%; height: 250px;}
 #mapN {font-size: xx-large; margin-left: 5%;}
 #desc { margin-left: 20%; margin-right: 20%;}
+
+#y67 {border-top: 10px solid black ; padding: 5px;}

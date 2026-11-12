@@ -8,6 +8,11 @@ body {
     font-size: large;
 }
 
-button {margin-left: 5%; padding: 20px; font-size: larger; width: 200px ; background-color: rgb(170, 172, 255); border-radius: 5%;}
+button {margin-left: 2%; padding: 20px; font-size: larger; width: 200px ; background-color: rgb(170, 172, 255); border-radius: 5%;}
 
-.gallery {display: flex;}
+.gallery {display: flex; flex-wrap: wrap; gap: 10px;}
+.gallery img {height: 250px;}
+#spot {border-top-left-radius: 20px;border-top-right-radius: 20px; padding:50px; margin: 50px 50px ; background: linear-gradient(rgba(0, 0, 0,1), rgba(0,0,0,0)); color: rgb(255, 211, 101); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#pmp {border-top-left-radius: 20px;border-top-right-radius: 20px; padding:50px; margin: 50px 50px ; background-image: image-set("../images/wp2476202.jpg"); color: rgb(30, 26, 23); font-family: cursive;}
+a {font-size: x-large; margin-left: 5%;}
+b {font-size: x-large;}
