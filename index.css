@@ -8,6 +8,7 @@ body {
     font-size: large;
 }
 
+
 #header {
     display: flex;
     gap: 20px;
@@ -32,8 +33,11 @@ body {
 }
 
 #intro b {
-    color: rgb(10, 6, 23); font-size: larger;
-    border-radius: 5px; border-style: solid; border-color: rgb(29, 27, 71) ;
+    color: rgb(10, 6, 23);
+    font-size: larger;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(29, 27, 71);
     padding: 20px;
 }
 
@@ -90,8 +94,12 @@ li {
     height: 180px;
     width: 300px;
     border-radius: 10%;
-    border-color: rgb(41, 38, 100); border-style: double; border-width: 5px;
+    border-color: rgb(41, 38, 100);
+    border-style: double;
+    border-width: 5px;
 }
+
 #linkBtns a :hover {
-    border-color: rgb(76, 112, 242);border-width: 10px;
+    border-color: rgb(76, 112, 242);
+    border-width: 10px;
 }
