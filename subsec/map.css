@@ -68,6 +68,12 @@ body {
     height: 250px;
 }
 
+#gal > .zoomed { height: 550px;}
+
+#gal img:hover:not(.zoomed) {
+    height: 280px;
+}
+
 #mapN {
     font-size: xx-large;
     margin-left: 5%;
